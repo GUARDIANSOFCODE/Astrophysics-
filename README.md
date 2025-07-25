@@ -18,6 +18,33 @@
 
 ---
 
+from goc_astrophysics import Supernova
+sn = Supernova(mass=15, metallicity=0.02)  # Solar metallicity
+sn.run_simulation()
+sn.generate_lightcurve(observer_angle=45)  # View from 45°****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🚀 Installation  
 ```bash
 # Clone with all submodules (includes sample datasets)
