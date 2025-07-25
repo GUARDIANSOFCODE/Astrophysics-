@@ -57,6 +57,12 @@ hunter.plot_top_candidates(n=3)
 
 ### 🛡️ GUARDIANSOFCODE Standards
 
++ High-performance numba-optimized kernels
++ Type-hinted API with Pyright validation
++ GPU acceleration via CuPy fallbacks
+- Legacy Python (<3.8) not supported
+
+---
 
 
 
