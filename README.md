@@ -9,6 +9,12 @@
 
 ---
 
+### Good Quotes 
+
+"The cosmos is within us. We are made of star-stuff." - Carl Sagan
+
+---
+
 ## 🪐 Key Features  
 ▸ **Galaxy Sandbox** - Smash Milky Way & Andromeda in 4K  
 ▸ **Gravitational Wave Visualizer** - LIGO-style chirp animations  
