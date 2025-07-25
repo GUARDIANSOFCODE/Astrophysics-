@@ -44,9 +44,16 @@ graph TD
     D --> I[CR Propagation]
     D --> J[Neutrino]
 
--0--
+---
 
 ### Discover Alien Worlds
+
+from goc_astrophysics.exoplanets import PlanetHunter
+hunter = PlanetHunter("data/tess/target_list.csv")
+candidates = hunter.find_transits(min_snr=7.5)
+hunter.plot_top_candidates(n=3)
+
+---
 
 
 
