@@ -17,7 +17,7 @@
 ▸ **AI-Assisted Classification** - CNN models for galaxy morphology  
 
 ---
-
+### Simulate a Supernova
 from goc_astrophysics import Supernova
 sn = Supernova(mass=15, metallicity=0.02)  # Solar metallicity
 sn.run_simulation()
@@ -33,7 +33,16 @@ sn.generate_lightcurve(observer_angle=45)  # View from 45°****
 
 
 
-
+graph TD
+    A[Core Engine] --> B[Gravity]
+    A --> C[Radiation]
+    A --> D[Particle Physics]
+    B --> E[N-Body]
+    B --> F[PN Equations]
+    C --> G[Spectral]
+    C --> H[Polarization]
+    D --> I[CR Propagation]
+    D --> J[Neutrino]
 
 
 
